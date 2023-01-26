@@ -162,7 +162,7 @@ nav {
 }
 .home-grid {
     display: grid;
-    grid-template-columns: 10fr;
+    grid-template-columns: repeat(10,1fr);
 }
 .card-img, .mountains {
     width: 100%;
@@ -193,7 +193,6 @@ nav {
         display: block;
         height: auto;
     }
-}
 nav, footer {
     flex-direction: column;
 }
@@ -228,4 +227,5 @@ nav a {
 }
 footer {
     margin-top: 25px;
+}
 }
