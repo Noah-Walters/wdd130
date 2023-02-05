@@ -49,6 +49,8 @@ nav a:hover {
 .actual-grid {
     display: grid;
     grid-template-columns: 5fr 5fr;
+    max-width: 70%;
+    margin: 0 auto;
 }
 
 .actual-grid p {
@@ -95,4 +97,9 @@ nav a {
     color: #000000;
     text-decoration: none;
     padding: 50px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
 }
