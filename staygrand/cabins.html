@@ -5,22 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stay Grand Vacaion Rentals</title>
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
+    <div id="content">
     <header>
-      <img src="Stay Grand-logos_black.png" alt="StayGrandlogo">
+      <img class="logo" src="Stay Grand-logos_black.png" alt="StayGrandlogo">
       <nav>
         <a id="active" href="#">Home</a>
         <a href="houses.html">Houses</a>
         <a href="cabins.html">Cabins</a>
       </nav>
     </header>
-    <main>
+    <main class="cabin-grid">
         <p>Here at Stay Grand Vacation Rentals, we also offer cozy and comfy cabin options for the whole family! Some of our more popular cabin properties include: Our Grand Canyon Cabin as well as our Hillside Hideaway. Our cabin properties are perfect for every season and are described as a home away from home.</p>
-        <img src="grandcanyoncabin.png" alt="Grand Canyon Cabin"></img>
-        <p>Grand Canyon Cabin</p>
-        <img src="hillsidehideaway.png" alt="Hillside Hideaway"></img>
-        <p>Hillside Hideaway</p>
+        <section class="cabinpics">
+            <div class="gccabin">
+                <img src="grandcanyoncabin.png" alt="Grand Canyon Cabin"></img>
+                <h1>Grand Canyon Cabin</h1>
+            </div>
+            <div class="hillsidehide">
+                <img src="hillsidehideaway.png" alt="Hillside Hideaway"></img>
+                <h2>Hillside Hideaway</h2>
+            </div>
+        </section>
     </main>
     <footer>
         <p>Stay Grand Vacation Rentals &copy; 2023 - Noah Walters</p>
@@ -38,5 +46,6 @@
             </a>
         </div>
     </footer>
+    </div>
 </body>
 </html>
