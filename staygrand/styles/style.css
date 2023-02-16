@@ -112,20 +112,28 @@ nav {
     text-align: center;
 }
 
+.cabinpics h1, h2 {
+  text-align: center;
+}
+
 .cabinpics {
     display: grid;
-    max-width: 80%;
+    max-width: 90%;
     grid-template-columns: 5fr 5fr;
     margin: 0 auto;
     place-items: center;
 }
 
 .gccabin img{
-    width: 150%;
+    width: 500px;
+    height: 450px;
+    border: 5px solid #4f5563;
 }
 
 .hillsidehide img{
-    width: 150%;
+    width: 500px;
+    height: 450px;
+    border: 5px solid #4f5563;
 }
 
 .houses-main p {
@@ -144,9 +152,11 @@ nav {
   /* Position the image container (needed to position the left and right arrows) */
   .container {
     position: relative;
-    width: 70%;
+    width: 900px;
+    height: 900px;
     margin: 0 auto;
-    padding-top: 150px;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
   
   /* Hide the images by default */
